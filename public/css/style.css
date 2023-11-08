@@ -1,0 +1,91 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    nav {
+      background-color: #4CAF50; /* Green */
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #55a25f; /* Darker green */
+    }
+    h1 {
+      text-align: center;
+    }
+    form {
+      width: 50%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    input[type="text"], input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+    .output {
+      width: 50%;
+      margin: 20px auto;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      background-color: #fff;
+      padding: 10px;
+      margin-bottom: 5px;
+    }
+    a {
+      text-decoration: none;
+      color: #ff0707; /* Green */
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    button {
+      background-color: #4CAF50; /* Green */
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #55a25f; /* Darker green */
+    }
+    #btn{
+      width: 100px;
+      background-color: #4CAF50;
+      color: #ffffff;
+      border-radius: 8%;
+    }
+    #details{
+      font-size: xx-large;
+      color: #4CAF50;
+
+    }
+    #remaining{
+      font-size:large;
+      color: #4CAF50;
+    }
+    #debt{
+      font-size:large;
+      color: #af4caf;
+    }

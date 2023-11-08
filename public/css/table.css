@@ -1,0 +1,44 @@
+
+  /* Your existing CSS */
+  /* ... */
+
+  /* New CSS for the table and links */
+  .output ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .output li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+
+  .output li span {
+    flex: 0 0 auto;
+  }
+
+  .output li a {
+    color: blue;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+
+ 
+
+#btn{
+    border:2px solid blue;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 55, 255);
+    
+    transition: 1s ease all;
+}
+#btn:hover {
+    border-radius: 50%;
+    
+}
+  
